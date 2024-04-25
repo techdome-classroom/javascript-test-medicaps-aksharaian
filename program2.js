@@ -6,7 +6,6 @@ function smallestMissingPositiveInteger(nums) {
   
   nums = Array.from(new Set(nums.filter(x => x > 0)));
   
-  // Find the smallest missing positive integer
   let smallestPositive = 1;
   while (nums.includes(smallestPositive)) {
       smallestPositive++;
