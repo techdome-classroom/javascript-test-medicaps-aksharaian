@@ -18,7 +18,7 @@ function longestSubstring(s) {
 
 
 
-function longestSubstringLength(s) {
+unction longestSubstringLength(s) {
     if (s.length === 0) {
         return 0;
     }
